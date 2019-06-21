@@ -3,10 +3,10 @@
 // This is simply for informational purposes. The creators of this file does
 // not endorse any of this information.
 
-const anchors = require('stellarterm-directory/anchors.json');
-const destinations = require('stellarterm-directory/destinations.json');
+const anchors = require('./static/anchors.json');
+const destinations = require('./static/destinations.json');
 
-const DirectoryBuilder = require('stellarterm-directory/DirectoryBuilder');
+const DirectoryBuilder = require('./source/DirectoryBuilder');
 
 const directory = new DirectoryBuilder();
 directory.DirectoryBuilder = DirectoryBuilder;
