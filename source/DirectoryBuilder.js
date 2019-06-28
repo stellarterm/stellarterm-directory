@@ -48,8 +48,8 @@ DirectoryBuilder.prototype.toJson = function () {
     return JSON.stringify(this, null, 2);
 };
 
-DirectoryBuilder.prototype.getBuildInfo = function () {
-    return buildInfo;
+DirectoryBuilder.prototype.getBuildId = function () {
+    return buildInfo.buildId;
 };
 
 DirectoryBuilder.prototype.addAnchor = function (details) {
