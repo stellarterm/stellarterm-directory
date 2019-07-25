@@ -85,11 +85,6 @@ DirectoryBuilder.prototype.addAnchor = function (details) {
     }
 };
 
-const POSSIBLE_ASSET_TYPES = {
-    token: true, // Token means that the coin on Stellar is the coin itself
-    iou: true, // IOU means that the issuer supposedly claims the tokens are backed by something outside of Stellar
-};
-
 DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
     const slug = `${details.code}-${details.issuer}`;
 
@@ -130,13 +125,6 @@ DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
             throw new Error(`Asset property unlisted must be unset or true: ${slug}`);
         }
         this.assets[slug].unlisted = true;
-    }
-    if (details.type) {
-        if (details.type in POSSIBLE_ASSET_TYPES) {
-            this.assets[slug].type = details.type;
-        } else {
-            throw new Error(`Invalid asset type "${details.type}" for token: ${slug}`);
-        }
     }
 
     this.anchors[anchorDomain].assets[details.code] = slug;
