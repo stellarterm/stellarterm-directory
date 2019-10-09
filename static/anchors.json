@@ -357,6 +357,14 @@
             {
                 "code": "XRP",
                 "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+            },
+            {
+                "code": "ETH",
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+            },
+            {
+                "code": "LTC",
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
             }
         ]
     },
@@ -370,20 +378,6 @@
             {
                 "code": "ETH",
                 "issuer": "GCNSGHUCG5VMGLT5RIYYZSO7VQULQKAJ62QA33DBC5PPBSO57LFWVV6P"
-            }
-        ]
-    },
-    {
-        "domain": "x.token.io",
-        "website": "https://x.token.io/",
-        "logo": "x.token",
-        "color": "#069bee",
-        "displayName": "Token X",
-        "assets": [
-            {
-                "code": "USD",
-                "issuer": "GDSRCV5VTM3U7Y3L6DFRP3PEGBNQMGOWSRTGSBWX6Z3H6C7JHRI4XFJP",
-                "isCounterSelling": "true"
             }
         ]
     },
@@ -431,19 +425,6 @@
         ]
     },
     {
-        "domain": "blockeq.com",
-        "website": "https://blockeq.com/",
-        "logo": "blockeq",
-        "color": "#0084ff",
-        "displayName": "BlockEQ",
-        "assets": [
-            {
-                "code": "PTS",
-                "issuer": "GBPG7KRYC3PTKHBXQGRD3GMZ5DB4C3D553ZN2ZLH57LBAQIULVY46Z5F"
-            }
-        ]
-    },
-    {
         "domain": "ximcoin.com",
         "website": "https://ximcoin.com/",
         "logo": "ximcoin.com",
@@ -484,6 +465,45 @@
                 "code": "PALL",
                 "issuer": "GCQ5ZYECTNYW6BZ47AZN6M5BXKV7ZZ24XPNHPSYZVUDVK7CIITOMPALL",
                 "instructions": "https://mintx.co/"
+            }
+        ]
+    },
+    {
+        "domain": "wirexapp.com",
+        "website": "https://wirexapp.com/",
+        "logo": "wirexapp.com",
+        "color": "#C9FFC6",
+        "displayName": "Wirex",
+        "assets": [
+            {
+                "code": "WXT",
+                "issuer": "GASBLVHS5FOABSDNW5SPPH3QRJYXY5JHA2AOA2QHH2FJLZBRXSG4SWXT"
+            }
+        ]
+    },
+    {
+        "domain": "nrvcoin.in",
+        "website": "https://nrvcoin.in/",
+        "logo": "nrvcoin.in",
+        "color": "#0587F5",
+        "displayName": "NRV Coin",
+        "assets": [
+            {
+                "code": "NRV",
+                "issuer": "GANRAE2FXMIU4V7CPLXFHWZNGCCSW7WEVBN2P3ZWA7FWWVED6OJSKKX2"
+            }
+        ]
+    },
+    {
+        "domain": "www.atlantisblue.org",
+        "website": "https://www.atlantisblue.org/",
+        "logo": "atlantisblue.org",
+        "color": "#52ADC8",
+        "displayName": "Atlantis Blue",
+        "assets": [
+            {
+                "code": "ABDT",
+                "issuer": "GDZURZR6RZKIQVOWZFWPVAUBMLLBQGXP2K5E5G7PEOV75IYPDFA36WK4"
             }
         ]
     }
