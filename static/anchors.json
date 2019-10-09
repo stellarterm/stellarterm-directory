@@ -38,7 +38,7 @@
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
                 "isCounterSelling": "true",
                 "withdraw": false,
-                "deposit": true
+                "deposit": false
             }
         ]
     },
@@ -129,8 +129,8 @@
             {
                 "code": "XEL",
                 "issuer": "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS",
-                "deposit": true,
-                "withdraw": true
+                "deposit": false,
+                "withdraw": false
             }
         ]
     },
