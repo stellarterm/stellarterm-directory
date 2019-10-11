@@ -8,8 +8,7 @@
         "assets": [
             {
                 "code": "TERN",
-                "issuer": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C",
-                "type": "token"
+                "issuer": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C"
             }
         ]
     },
@@ -22,14 +21,14 @@
         "assets": [
             {
                 "code": "WSD",
-                "issuer": "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V",
-                "type": "token"
+                "issuer": "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
             }
         ]
     },
     {
         "domain": "www.anchorusd.com",
         "website": "https://www.anchorusd.com/",
+        "support": "support@anchorusd.com",
         "logo": "anchorusd.com",
         "color": "#00b4ce",
         "displayName": "AnchorUSD",
@@ -37,8 +36,9 @@
             {
                 "code": "USD",
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
-                "type": "token",
-                "isCounterSelling": "true"
+                "isCounterSelling": "true",
+                "withdraw": false,
+                "deposit": true
             }
         ]
     },
@@ -51,8 +51,7 @@
         "assets": [
             {
                 "code": "TARI",
-                "issuer": "GD7UVDDJHJYKUXB4SJFIC6VJDQ4YADQCMRN3KLHJFV4H6NIUAEREVCO7",
-                "type": "token"
+                "issuer": "GD7UVDDJHJYKUXB4SJFIC6VJDQ4YADQCMRN3KLHJFV4H6NIUAEREVCO7"
             }
         ]
     },
@@ -65,8 +64,7 @@
         "assets": [
             {
                 "code": "FRAS",
-                "issuer": "GC75WHUIMU7LV6WURMCA5GGF2S5FWFOK7K5VLR2WGRKWKZQAJQEBM53M",
-                "type": "token"
+                "issuer": "GC75WHUIMU7LV6WURMCA5GGF2S5FWFOK7K5VLR2WGRKWKZQAJQEBM53M"
             }
         ]
     },
@@ -79,9 +77,7 @@
         "assets": [
             {
                 "code": "PEDI",
-                "issuer": "GBVUDZLMHTLMZANLZB6P4S4RYF52MVWTYVYXTQ2EJBPBX4DZI2SDOLLY",
-                "instructions": "https://pedity.com",
-                "type": "token"
+                "issuer": "GBVUDZLMHTLMZANLZB6P4S4RYF52MVWTYVYXTQ2EJBPBX4DZI2SDOLLY"
             }
         ]
     },
@@ -94,9 +90,7 @@
         "assets": [
             {
                 "code": "SLT",
-                "issuer": "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP",
-                "instructions": "https://smartlands.io",
-                "type": "token"
+                "issuer": "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP"
             }
         ]
     },
@@ -109,9 +103,7 @@
         "assets": [
             {
                 "code": "REPO",
-                "issuer": "GCZNF24HPMYTV6NOEHI7Q5RJFFUI23JKUKY3H3XTQAFBQIBOHD5OXG3B",
-                "instructions": "https://repocoin.io",
-                "type": "token"
+                "issuer": "GCZNF24HPMYTV6NOEHI7Q5RJFFUI23JKUKY3H3XTQAFBQIBOHD5OXG3B"
             }
         ]
     },
@@ -125,7 +117,6 @@
             {
                 "code": "XLM",
                 "issuer": "GBSTRH4QOTWNSVA6E4HFERETX4ZLSR3CIUBLK7AXYII277PFJC4BBYOG",
-                "instructions": "https://stronghold.co/send-receive-lumens.html",
                 "unlisted": true
             },
             {
@@ -137,6 +128,7 @@
     {
         "domain": "naobtc.com",
         "website": "https://naobtc.com/",
+        "support": "support@naobtc.com",
         "logo": "naobtc.com",
         "color": "#08b5e5",
         "displayName": "NaoBTC",
@@ -144,13 +136,21 @@
             {
                 "code": "BTC",
                 "issuer": "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH",
-                "instructions": "https://naobtc.com/#/howto/deposit"
+                "deposit": true,
+                "withdraw": true
+            },
+            {
+                "code": "XEL",
+                "issuer": "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS",
+                "deposit": true,
+                "withdraw": true
             }
         ]
     },
     {
         "domain": "tempo.eu.com",
         "website": "https://tempo.eu.com/",
+        "support": "support@tempo.eu.com",
         "logo": "tempo.eu.com",
         "color": "#1b92de",
         "displayName": "TEMPO",
@@ -171,9 +171,7 @@
         "assets": [
             {
                 "code": "RMT",
-                "issuer": "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N",
-                "instructions": "https://sureremit.co",
-                "type": "token"
+                "issuer": "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N"
             }
         ]
     },
@@ -187,14 +185,14 @@
             {
                 "code": "CNY",
                 "issuer": "GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX",
-                "isCounterSelling": "true",
-                "instructions": "Leave your address in the message to seller when you order the item: https://shop109149722.taobao.com"
+                "isCounterSelling": "true"
             }
         ]
     },
     {
         "domain": "apay.io",
         "website": "https://apay.io/",
+        "support": "support@apay.io",
         "logo": "papayame.com",
         "color": "#efa344",
         "displayName": "apay.io",
@@ -202,42 +200,80 @@
             {
                 "code": "BTC",
                 "issuer": "GAUTUYY2THLF7SGITDFMXJVYH3LHDSMGEAKSBU267M2K7A3W543CKUEF",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "LTC",
                 "issuer": "GC5LOR3BK6KIOK7GKAUD5EGHQCMFOGHJTC7I3ELB66PTDFXORC2VM5LP",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "ETH",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "KIN",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "LINK",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "ZRX",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "BAT",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "BCH",
                 "issuer": "GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4",
-                "instructions": "https://apay.io/"
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "DASH",
+                "issuer": "GDFGEXEBIMLP5UFC36TFENBHRJSW7AQZUPXNTTM2WO532KBXCVPUKFGB",
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "MTL",
+                "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "OMG",
+                "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "REP",
+                "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "SALT",
+                "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
@@ -250,8 +286,7 @@
         "assets": [
             {
                 "code": "MOBI",
-                "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH",
-                "type": "token"
+                "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH"
             }
         ]
     },
@@ -264,8 +299,7 @@
         "assets": [
             {
                 "code": "XIR",
-                "issuer": "GAO4DADCRAHA35GD6J3KUNOB5ELZE5D6CGPSJX2WBMEQV7R2M4PGKJL5",
-                "type": "token"
+                "issuer": "GAO4DADCRAHA35GD6J3KUNOB5ELZE5D6CGPSJX2WBMEQV7R2M4PGKJL5"
             }
         ]
     },
@@ -319,13 +353,14 @@
         "logo": "cowrie.exchange",
         "color": "#2a1c4a",
         "displayName": "Cowrie Exchange",
+        "support": "moon@cowrie.exchange",
         "assets": [
             {
                 "code": "NGNT",
                 "issuer": "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD",
-                "instructions": "https://cowrie.exchange",
-                "type": "token",
-                "isCounterSelling": "true"
+                "isCounterSelling": "true",
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
@@ -346,25 +381,34 @@
     {
         "domain": "stellarport.io",
         "website": "https://stellarport.io/",
+        "support": "support@stellarport.io",
         "logo": "stellarport",
         "color": "#00a5ed",
         "displayName": "Stellarport",
         "assets": [
             {
                 "code": "BTC",
-                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "XRP",
-                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "ETH",
-                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+                "withdraw": true,
+                "deposit": true
             },
             {
                 "code": "LTC",
-                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
@@ -384,17 +428,28 @@
     {
         "domain": "fchain.io",
         "website": "https://fchain.io/",
+        "support": "support@fchain.io",
         "logo": "fchain",
         "color": "#1fc785",
         "displayName": "Firefly",
         "assets": [
             {
                 "code": "ETH",
-                "issuer": "GBETHKBL5TCUTQ3JPDIYOZ5RDARTMHMEKIO2QZQ7IOZ4YC5XV3C2IKYU"
+                "issuer": "GBETHKBL5TCUTQ3JPDIYOZ5RDARTMHMEKIO2QZQ7IOZ4YC5XV3C2IKYU",
+                "withdraw": true,
+                "deposit": true
             },
             {
-                "code": "XCN",
-                "issuer": "GCNY5OXYSY4FKHOPT2SPOQZAOEIGXB5LBYW3HVU3OWSTQITS65M5RCNY"
+                "code": "XRP",
+                "issuer": "GBXRPL45NPHCVMFFAYZVUVFFVKSIZ362ZXFP7I2ETNQ3QKZMFLPRDTD5",
+                "withdraw": true,
+                "deposit": true
+            },
+            {
+                "code": "BCH",
+                "issuer": "GBCHK4TINAK6KXTD4BBWWKR5BI2OKJ7C7HYX55BJ5I4KHNQMTL5UXBCH",
+                "withdraw": true,
+                "deposit": true
             }
         ]
     },
@@ -433,9 +488,7 @@
         "assets": [
             {
                 "code": "XIM",
-                "issuer": "GBZ35ZJRIKJGYH5PBKLKOZ5L6EXCNTO7BKIL7DAVVDFQ2ODJEEHHJXIM",
-                "instructions": "https://ximcoin.com",
-                "type": "token"
+                "issuer": "GBZ35ZJRIKJGYH5PBKLKOZ5L6EXCNTO7BKIL7DAVVDFQ2ODJEEHHJXIM"
             }
         ]
     },
@@ -448,23 +501,19 @@
         "assets": [
             {
                 "code": "GOLD",
-                "issuer": "GBC5ZGK6MQU3XG5Y72SXPA7P5R5NHYT2475SNEJB2U3EQ6J56QLVGOLD",
-                "instructions": "https://mintx.co/"
+                "issuer": "GBC5ZGK6MQU3XG5Y72SXPA7P5R5NHYT2475SNEJB2U3EQ6J56QLVGOLD"
             },
             {
                 "code": "SLVR",
-                "issuer": "GBZVELEQD3WBN3R3VAG64HVBDOZ76ZL6QPLSFGKWPFED33Q3234NSLVR",
-                "instructions": "https://mintx.co/"
+                "issuer": "GBZVELEQD3WBN3R3VAG64HVBDOZ76ZL6QPLSFGKWPFED33Q3234NSLVR"
             },
             {
                 "code": "PLAT",
-                "issuer": "GBIMVJJJOTAKJYWJIY5YEXDZ4QIWQZLRJ4BXVHKH6EXWQ3WAEYBTPLAT",
-                "instructions": "https://mintx.co/"
+                "issuer": "GBIMVJJJOTAKJYWJIY5YEXDZ4QIWQZLRJ4BXVHKH6EXWQ3WAEYBTPLAT"
             },
             {
                 "code": "PALL",
-                "issuer": "GCQ5ZYECTNYW6BZ47AZN6M5BXKV7ZZ24XPNHPSYZVUDVK7CIITOMPALL",
-                "instructions": "https://mintx.co/"
+                "issuer": "GCQ5ZYECTNYW6BZ47AZN6M5BXKV7ZZ24XPNHPSYZVUDVK7CIITOMPALL"
             }
         ]
     },

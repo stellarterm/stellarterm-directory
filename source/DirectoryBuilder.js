@@ -72,6 +72,7 @@ DirectoryBuilder.prototype.addAnchor = function (details) {
     this.anchors[details.domain] = {
         name: details.domain,
         displayName: details.displayName,
+        support: details.support,
         website: details.website,
         logo: logos[details.logo],
         assets: {},
@@ -111,11 +112,11 @@ DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
         issuer: details.issuer,
         domain: anchorDomain,
     };
-    if (details.instructions) {
-        this.assets[slug].instructions = details.instructions;
+    if (details.deposit) {
+        this.assets[slug].deposit = details.deposit;
     }
-    if (details.warning) {
-        this.assets[slug].warning = details.warning;
+    if (details.withdraw) {
+        this.assets[slug].withdraw = details.withdraw;
     }
     if (details.disabled) {
         this.assets[slug].disabled = true;
