@@ -8,7 +8,8 @@
         "assets": [
             {
                 "code": "TERN",
-                "issuer": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C"
+                "issuer": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C",
+                "type": "token"
             }
         ]
     },
@@ -21,7 +22,8 @@
         "assets": [
             {
                 "code": "WSD",
-                "issuer": "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V"
+                "issuer": "GDSVWEA7XV6M5XNLODVTPCGMAJTNBLZBXOFNQD3BNPNYALEYBNT6CE2V",
+                "type": "token"
             }
         ]
     },
@@ -35,6 +37,7 @@
             {
                 "code": "USD",
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
+                "type": "token",
                 "isCounterSelling": "true"
             }
         ]
@@ -48,7 +51,8 @@
         "assets": [
             {
                 "code": "TARI",
-                "issuer": "GD7UVDDJHJYKUXB4SJFIC6VJDQ4YADQCMRN3KLHJFV4H6NIUAEREVCO7"
+                "issuer": "GD7UVDDJHJYKUXB4SJFIC6VJDQ4YADQCMRN3KLHJFV4H6NIUAEREVCO7",
+                "type": "token"
             }
         ]
     },
@@ -61,7 +65,8 @@
         "assets": [
             {
                 "code": "FRAS",
-                "issuer": "GC75WHUIMU7LV6WURMCA5GGF2S5FWFOK7K5VLR2WGRKWKZQAJQEBM53M"
+                "issuer": "GC75WHUIMU7LV6WURMCA5GGF2S5FWFOK7K5VLR2WGRKWKZQAJQEBM53M",
+                "type": "token"
             }
         ]
     },
@@ -75,7 +80,8 @@
             {
                 "code": "PEDI",
                 "issuer": "GBVUDZLMHTLMZANLZB6P4S4RYF52MVWTYVYXTQ2EJBPBX4DZI2SDOLLY",
-                "instructions": "https://pedity.com"
+                "instructions": "https://pedity.com",
+                "type": "token"
             }
         ]
     },
@@ -89,7 +95,8 @@
             {
                 "code": "SLT",
                 "issuer": "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP",
-                "instructions": "https://smartlands.io"
+                "instructions": "https://smartlands.io",
+                "type": "token"
             }
         ]
     },
@@ -103,7 +110,8 @@
             {
                 "code": "REPO",
                 "issuer": "GCZNF24HPMYTV6NOEHI7Q5RJFFUI23JKUKY3H3XTQAFBQIBOHD5OXG3B",
-                "instructions": "https://repocoin.io"
+                "instructions": "https://repocoin.io",
+                "type": "token"
             }
         ]
     },
@@ -164,7 +172,8 @@
             {
                 "code": "RMT",
                 "issuer": "GDEGOXPCHXWFYY234D2YZSPEJ24BX42ESJNVHY5H7TWWQSYRN5ZKZE3N",
-                "instructions": "https://sureremit.co"
+                "instructions": "https://sureremit.co",
+                "type": "token"
             }
         ]
     },
@@ -241,7 +250,8 @@
         "assets": [
             {
                 "code": "MOBI",
-                "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH"
+                "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH",
+                "type": "token"
             }
         ]
     },
@@ -254,7 +264,8 @@
         "assets": [
             {
                 "code": "XIR",
-                "issuer": "GAO4DADCRAHA35GD6J3KUNOB5ELZE5D6CGPSJX2WBMEQV7R2M4PGKJL5"
+                "issuer": "GAO4DADCRAHA35GD6J3KUNOB5ELZE5D6CGPSJX2WBMEQV7R2M4PGKJL5",
+                "type": "token"
             }
         ]
     },
@@ -313,6 +324,7 @@
                 "code": "NGNT",
                 "issuer": "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD",
                 "instructions": "https://cowrie.exchange",
+                "type": "token",
                 "isCounterSelling": "true"
             }
         ]
@@ -441,7 +453,8 @@
             {
                 "code": "XIM",
                 "issuer": "GBZ35ZJRIKJGYH5PBKLKOZ5L6EXCNTO7BKIL7DAVVDFQ2ODJEEHHJXIM",
-                "instructions": "https://ximcoin.com"
+                "instructions": "https://ximcoin.com",
+                "type": "token"
             }
         ]
     },
