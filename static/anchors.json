@@ -568,5 +568,18 @@
                 "issuer": "GBOAYBE3NJKS4WPIVM2H5DVFIDYLAHHD2DAWYL5LLUVYF77M3JIVGCTR"
             }
         ]
+    },
+    {
+        "domain": "photon.center",
+        "website": "https://photon.center/",
+        "logo": "photon.center",
+        "color": "#DCECF4",
+        "displayName": "Photon center",
+        "assets": [
+            {
+                "code": "PHOTON",
+                "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
+            }
+        ]
     }
 ]
