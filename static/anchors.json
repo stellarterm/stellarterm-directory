@@ -568,18 +568,5 @@
                 "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
             }
         ]
-    },
-    {
-        "domain": "lfe-token.com",
-        "website": "https://lfe-token.com/",
-        "logo": "lfe-token.com",
-        "color": "#924146",
-        "displayName": "London Football Exchange",
-        "assets": [
-            {
-                "code": "LFEC",
-                "issuer": "GAG6FS3CR64QJHLHJU7HNXUB4KBLXVDFQBDXM5LG22WOM7CA2ITJAVD2"
-            }
-        ]
     }
 ]
