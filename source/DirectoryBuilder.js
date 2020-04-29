@@ -169,37 +169,6 @@ DirectoryBuilder.prototype.addDestination = function (accountId, opts) {
         }
         this.destinations[accountId].requiredMemoType = opts.requiredMemoType;
     }
-
-    this.destinations[accountId].mergeOpAccepted = false;
-    if (opts.mergeOpAccepted !== undefined) {
-        if (opts.mergeOpAccepted === true) {
-            this.destinations[accountId].mergeOpAccepted = true;
-        } else if (opts.mergeOpAccepted !== false) {
-            throw new Error('Destination opts.mergeOpAccepted must either be true or false');
-        }
-    }
-
-    this.destinations[accountId].pathPaymentAccepted = false;
-    if (opts.pathPaymentAccepted !== undefined) {
-        if (opts.pathPaymentAccepted === true) {
-            this.destinations[accountId].pathPaymentAccepted = true;
-        } else if (opts.pathPaymentAccepted !== false) {
-            throw new Error('Destination opts.pathPaymentAccepted must either be true or false');
-        }
-    }
-
-    if (Array.isArray(opts.acceptedAssetsWhitelist)) {
-        this.destinations[accountId].acceptedAssetsWhitelist = [];
-        opts.acceptedAssetsWhitelist.forEach((assetSlug) => {
-            if (typeof assetSlug !== 'string') {
-                throw new Error(`Destination opts.acceptedAssetsWhitelist must be string. Got: ${assetSlug}`);
-            } else if (assetSlug.indexOf('-') < 1) {
-                throw new Error(`Destination opts.acceptedAssetsWhitelist must be in slug format like XLM-native or BTC-GA7B. Got: ${assetSlug}`);
-            }
-
-            this.destinations[accountId].acceptedAssetsWhitelist.push(assetSlug);
-        });
-    }
 };
 
 // Must specify by domain
