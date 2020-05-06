@@ -118,6 +118,9 @@ DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
     if (details.withdraw) {
         this.assets[slug].withdraw = details.withdraw;
     }
+    if (details.sep24) {
+        this.assets[slug].sep24 = details.sep24;
+    }
     if (details.disabled) {
         this.assets[slug].disabled = true;
     }

@@ -38,7 +38,7 @@
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
                 "isCounterSelling": "true",
                 "withdraw": false,
-                "deposit": false
+                "deposit": true
             }
         ]
     },
@@ -125,12 +125,6 @@
                 "issuer": "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH",
                 "deposit": true,
                 "withdraw": true
-            },
-            {
-                "code": "XEL",
-                "issuer": "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS",
-                "deposit": false,
-                "withdraw": false
             }
         ]
     },
@@ -566,6 +560,129 @@
             {
                 "code": "PHOTON",
                 "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
+            }
+        ]
+    },
+    {
+        "domain": "anchor.com.ar",
+        "website": "https://anchor.com.ar/",
+        "support": "info@anchor.com.ar",
+        "logo": "ars",
+        "color": "#74ACDF",
+        "displayName": "Peso Argentino",
+        "assets": [
+            {
+                "code": "ARS",
+                "issuer": "GCYE7C77EB5AWAA25R5XMWNI2EDOKTTFTTPZKM2SR5DI4B4WFD52DARS",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "smx.saldo.mx",
+        "website": "https://smx.saldo.mx/",
+        "support": "info@saldo.mx",
+        "logo": "smx",
+        "color": "#8d9075",
+        "displayName": "Mexican Peso",
+        "assets": [
+            {
+                "code": "SMX",
+                "issuer": "GCDN3VGXZZRCKPG2UEUNR54QDVJRAYINMHBXIT4ZQUFCEQSFN2ZZFSMX",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "www.anchormxn.com",
+        "website": "https://www.anchormxn.com/",
+        "support": "support@anchormxn.com",
+        "logo": "unknown",
+        "color": "#8d9075",
+        "displayName": "Mexican Peso",
+        "assets": [
+            {
+                "code": "MXN",
+                "issuer": "GCKIK5F6J4KMKF6MKB5EM67S5CK557EZQ3IAMZM5FFAYST63S3HWXVPE",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "ntokens.com",
+        "website": "https://ntokens.com",
+        "support": "contact@ntokens.com",
+        "logo": "unknown",
+        "color": "#8d9075",
+        "displayName": "Brazilian Real",
+        "assets": [
+            {
+                "code": "BRL",
+                "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "arst.settle.network",
+        "website": "https://arst.settle.network/",
+        "support": "support@settle.network",
+        "logo": "arst",
+        "color": "#8297a4",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ARST",
+                "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "testanchor.lobstr.co",
+        "website": "https://testanchor.lobstr.co/",
+        "support": "support@lobstr.co",
+        "logo": "lobstr",
+        "color": "#36aec6",
+        "displayName": "Lobstr",
+        "assets": [
+            {
+                "code": "XLMT",
+                "issuer": "GBBBXWNRAQTCDUNNTFBABCMI54WTRJPK6VBNSOAJTPJPLJ2ZRKUBZGHE",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "ETH",
+                "issuer": "GBRIJN335VBG2S7B6AWKM6NY2RXOMYMKAS7EJ5F7R56GEO3YDFJQULFL",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "USDT",
+                "issuer": "GCVH34KA5KMWMTMI6HNWUYR4OZSPUW5HX3HMT7TDBAR7G5BWWWAGY2FK",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "BTC",
+                "issuer": "GBF6YT4VXHWERRRTXSDOCJJUOIRBWI2T4IW4Y7CFX2FWLGLQUUERYMXZ",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
             }
         ]
     }
