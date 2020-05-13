@@ -581,8 +581,8 @@
         ]
     },
     {
-        "domain": "smx.saldo.mx",
-        "website": "https://smx.saldo.mx/",
+        "domain": "test.saldo.mx",
+        "website": "https://test.saldo.mx/",
         "support": "info@saldo.mx",
         "logo": "smx",
         "color": "#8d9075",
@@ -590,7 +590,7 @@
         "assets": [
             {
                 "code": "SMX",
-                "issuer": "GCDN3VGXZZRCKPG2UEUNR54QDVJRAYINMHBXIT4ZQUFCEQSFN2ZZFSMX",
+                "issuer": "GBXK4HMOMUA27BRDXM5AKVQI2VUZTN66FJOMMLTIHXBP5VUPCWXDSW7R",
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
@@ -615,8 +615,8 @@
         ]
     },
     {
-        "domain": "ntokens.com",
-        "website": "https://ntokens.com",
+        "domain": "anchortestnet.ntokens.com.br",
+        "website": "https://anchortestnet.ntokens.com.br/",
         "support": "contact@ntokens.com",
         "logo": "unknown",
         "color": "#8d9075",
@@ -624,7 +624,7 @@
         "assets": [
             {
                 "code": "BRL",
-                "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+                "issuer": "GDORKJVSSG5FPNZYNBU4YJ22KU4EW7G3J6OQ22PZNOM2EWKDMK36EOJ4",
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
@@ -632,8 +632,8 @@
         ]
     },
     {
-        "domain": "arst.settle.network",
-        "website": "https://arst.settle.network/",
+        "domain": "staging-arst.zetl.network",
+        "website": "https://staging-arst.zetl.network/",
         "support": "support@settle.network",
         "logo": "arst",
         "color": "#8297a4",
@@ -641,7 +641,72 @@
         "assets": [
             {
                 "code": "ARST",
-                "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "issuer": "GB7TAYRUZGE6TVT7NHP5SMIZRNQA6PLM423EYISAOAP3MKYIQMVYP2JO",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "testnet-api.anchor.com.ar",
+        "website": "https://testnet-api.anchor.com.ar/",
+        "support": "support@settle.network",
+        "logo": "arst",
+        "color": "#8297a4",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ARST",
+                "issuer": "GDBJNMY5B6V5IUFNPVK22E3O2J37OGD22BWYBQKU44QFCT3QOJUQXKZV",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "testanchor.stellar.org",
+        "website": "https://testanchor.stellar.org/",
+        "support": "support@settle.network",
+        "logo": "arst",
+        "color": "#8297a4",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "SRT",
+                "issuer": "GCDNJUBQSX7AJWLJACMJ7I4BC3Z47BQUTMHEICZLE6MU4KQBRYG5JY6B",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "anchor.sandbox.xcm.com",
+        "website": "https://anchor.sandbox.xcm.com/",
+        "support": "support@settle.network",
+        "logo": "arst",
+        "color": "#8297a4",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ETH",
+                "issuer": "GBNJEPBSAFAZHUJGI3VLLSWHRL5SXODP4MAQ3TBMG6RQIZVYSTC4PTDK",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "BTC",
+                "issuer": "GBNJEPBSAFAZHUJGI3VLLSWHRL5SXODP4MAQ3TBMG6RQIZVYSTC4PTDK",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "CAD",
+                "issuer": "GBR3V3FXLQ37LY2IDSOOHC6WORRGLDV4QJMIVSVXPT3BTCRCSI766YHW",
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
