@@ -683,8 +683,8 @@
         ]
     },
     {
-        "domain": "anchor.sandbox.xcm.com",
-        "website": "https://anchor.sandbox.xcm.com/",
+        "domain": "sandbox.xcm.com",
+        "website": "https://sandbox.xcm.com/",
         "support": "support@settle.network",
         "logo": "arst",
         "color": "#8297a4",
