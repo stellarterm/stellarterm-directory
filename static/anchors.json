@@ -685,5 +685,22 @@
                 "sep24": true
             }
         ]
+    },
+    {
+        "domain": "xcm.com",
+        "website": "https://xcm.com/",
+        "support": "support@xcm.com",
+        "logo": "unknown",
+        "color": "#36aec6",
+        "displayName": "Xcm",
+        "assets": [
+            {
+                "code": "ETH",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
     }
 ]
