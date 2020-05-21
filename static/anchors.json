@@ -568,5 +568,90 @@
                 "issuer": "GBUMIO5G77562NFZZVMKMAUQL3CCZOGTGTUP6PVVUS2BM7U2WSPHOTON"
             }
         ]
+    },
+    {
+        "domain": "anchor.com.ar",
+        "website": "https://anchor.com.ar/",
+        "support": "info@anchor.com.ar",
+        "logo": "ars",
+        "color": "#74ACDF",
+        "displayName": "Peso Argentino",
+        "assets": [
+            {
+                "code": "ARS",
+                "issuer": "GCYE7C77EB5AWAA25R5XMWNI2EDOKTTFTTPZKM2SR5DI4B4WFD52DARS",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "smx.saldo.mx",
+        "website": "https://smx.saldo.mx/",
+        "support": "info@saldo.mx",
+        "logo": "smx",
+        "color": "#8d9075",
+        "displayName": "Mexican Peso",
+        "assets": [
+            {
+                "code": "SMX",
+                "issuer": "GCDN3VGXZZRCKPG2UEUNR54QDVJRAYINMHBXIT4ZQUFCEQSFN2ZZFSMX",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "www.anchormxn.com",
+        "website": "https://www.anchormxn.com/",
+        "support": "support@anchormxn.com",
+        "logo": "mxn",
+        "color": "#cfd8df",
+        "displayName": "Mexican Peso",
+        "assets": [
+            {
+                "code": "MXN",
+                "issuer": "GCKIK5F6J4KMKF6MKB5EM67S5CK557EZQ3IAMZM5FFAYST63S3HWXVPE",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "ntokens.com",
+        "website": "https://ntokens.com",
+        "support": "contact@ntokens.com",
+        "logo": "brl",
+        "color": "#8d9075",
+        "displayName": "Brazilian Real",
+        "assets": [
+            {
+                "code": "BRL",
+                "issuer": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "arst.settle.network",
+        "website": "https://arst.settle.network/",
+        "support": "support@settle.network",
+        "logo": "arst",
+        "color": "#8297a4",
+        "displayName": "Argentinean Pesos",
+        "assets": [
+            {
+                "code": "ARST",
+                "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
     }
 ]
