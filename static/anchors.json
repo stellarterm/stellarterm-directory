@@ -38,7 +38,7 @@
                 "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
                 "isCounterSelling": "true",
                 "withdraw": false,
-                "deposit": false
+                "deposit": true
             }
         ]
     },
@@ -125,12 +125,6 @@
                 "issuer": "GATEMHCCKCY67ZUCKTROYN24ZYT5GK4EQZ65JJLDHKHRUZI3EUEKMTCH",
                 "deposit": true,
                 "withdraw": true
-            },
-            {
-                "code": "XEL",
-                "issuer": "GAXELY4AOIRVONF7V25BUPDNKZYIVT6CWURG7R2I6NQU26IQSQODBVCS",
-                "deposit": false,
-                "withdraw": false
             }
         ]
     },
@@ -387,9 +381,7 @@
             },
             {
                 "code": "ETH",
-                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
-                "withdraw": true,
-                "deposit": true
+                "issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
             },
             {
                 "code": "LTC",
@@ -648,6 +640,30 @@
             {
                 "code": "ARST",
                 "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "xcm.com",
+        "website": "https://xcm.com/",
+        "support": "support@xcm.com",
+        "logo": "xcm",
+        "color": "#36aec6",
+        "displayName": "Xcm",
+        "assets": [
+            {
+                "code": "ETH",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "BTC",
+                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
