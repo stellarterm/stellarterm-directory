@@ -144,6 +144,24 @@
         ]
     },
     {
+        "domain": "ktest.tempocrypto.com",
+        "website": "https://ktest.tempocrypto.com/",
+        "support": "support@tempo.eu.com",
+        "logo": "tempo.eu.com",
+        "color": "#1b92de",
+        "displayName": "TEMPO",
+        "assets": [
+            {
+                "code": "PURPLE",
+                "issuer": "GBT4VVTDPCNA45MNWX5G6LUTLIEENSTUHDVXO2AQHAZ24KUZUPLPGJZH",
+                "isCounterSelling": "true",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
         "domain": "sureremit.co",
         "website": "https://sureremit.co",
         "logo": "sureremit.co",
