@@ -129,8 +129,8 @@
         ]
     },
     {
-        "domain": "tempo.eu.com",
-        "website": "https://tempo.eu.com/",
+        "domain": "k.tempocrypto.com",
+        "website": "https://k.tempocrypto.com/",
         "support": "support@tempo.eu.com",
         "logo": "tempo.eu.com",
         "color": "#1b92de",
@@ -139,7 +139,10 @@
             {
                 "code": "EURT",
                 "issuer": "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S",
-                "isCounterSelling": "true"
+                "isCounterSelling": "true",
+                "deposit": true,
+                "withdraw": true,
+                "sep24": true
             }
         ]
     },
