@@ -670,6 +670,13 @@
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
+            },
+            {
+                "code": "CAD",
+                "issuer": "GBLR5MVHI7PCN24JIHDR5LUYFBHSA2IOVPZP7F75L7PIF3WU3TQGQC3P",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
             }
         ]
     }
