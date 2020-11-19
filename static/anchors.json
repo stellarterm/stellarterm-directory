@@ -274,6 +274,19 @@
             }
         ]
     },
+        {
+        "domain": "drivedeb.com",
+        "website": "https://drivedeb.com/",
+        "logo": "drivedeb.com",
+        "color": "#efa344",
+        "displayName": "DEB",
+        "assets": [
+            {
+                "code": "DEB",
+                "issuer": "GB6G343Z2IHS3W2V6QGGEM622V5S4UUS7C2NEOZFPYG3DCEB256FAOZA"
+            }
+        ]
+    },
     {
         "domain": "xirkle.com",
         "website": "https://xirkle.com/",
