@@ -139,10 +139,7 @@
             {
                 "code": "EURT",
                 "issuer": "GAP5LETOV6YIE62YAM56STDANPRDO7ZFDBGSNHJQIYGGKSMOZAHOOS2S",
-                "isCounterSelling": "true",
-                "deposit": true,
-                "withdraw": true,
-                "sep24": true
+                "isCounterSelling": "true"
             }
         ]
     },
@@ -650,33 +647,15 @@
         ]
     },
     {
-        "domain": "xcm.com",
-        "website": "https://xcm.com/",
-        "support": "support@xcm.com",
-        "logo": "xcm",
-        "color": "#36aec6",
-        "displayName": "Xcm",
+        "domain": "centus.one",
+        "website": "https://centus.one/",
+        "logo": "centus.one",
+        "color": "#a38b1e",
+        "displayName": "Stable Cent",
         "assets": [
             {
-                "code": "ETH",
-                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
-                "withdraw": true,
-                "deposit": true,
-                "sep24": true
-            },
-            {
-                "code": "BTC",
-                "issuer": "GAC63S3QEA5TKKGPLSLGCUSAFASDNO44XDWDNGLPM6UZSBLXA7W47JGZ",
-                "withdraw": true,
-                "deposit": true,
-                "sep24": true
-            },
-            {
-                "code": "CAD",
-                "issuer": "GBLR5MVHI7PCN24JIHDR5LUYFBHSA2IOVPZP7F75L7PIF3WU3TQGQC3P",
-                "withdraw": true,
-                "deposit": true,
-                "sep24": true
+                "code": "CENTUS",
+                "issuer": "GAKMVPHBET4T7DPN32ODVSI4AA3YEZX2GHGNNSBGFNRQ6QEVKFO4MNDZ"
             }
         ]
     }
