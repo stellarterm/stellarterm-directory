@@ -768,5 +768,22 @@
                 "sep24": true
             }
         ]
+    },
+    {
+        "domain": "testnet-sep.stablex.cloud",
+        "website": "http://testnet-sep.stablex.cloud/",
+        "support": "lorem@ipsum.co",
+        "logo": "unknown",
+        "color": "#36aec6",
+        "displayName": "BRLT",
+        "assets": [
+            {
+                "code": "BRLT",
+                "issuer": "GB7TAYRUZGE6TVT7NHP5SMIZRNQA6PLM423EYISAOAP3MKYIQMVYP2JO",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
     }
 ]

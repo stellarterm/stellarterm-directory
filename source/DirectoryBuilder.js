@@ -59,9 +59,10 @@ DirectoryBuilder.prototype.addAnchor = function (details) {
     if (logos[details.logo] === undefined) {
         throw new Error(`Missing logo file: ${details.logo}`);
     }
-    if (details.website.indexOf('http://') !== -1) {
-        throw new Error('Website URL must use https://');
-    }
+    // Not actual only for testnet build
+    // if (details.website.indexOf('http://') !== -1) {
+    //     throw new Error('Website URL must use https://');
+    // }
     if (details.website.indexOf(details.domain) === -1) {
         throw new Error('Website URL of anchor must contain the anchor domain');
     }
