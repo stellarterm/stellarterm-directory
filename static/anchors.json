@@ -645,8 +645,8 @@
             {
                 "code": "BRLT",
                 "issuer": "GCHQ3F2BF5P74DMDNOOGHT5DUCKC773AW5DTOFINC26W4KGYFPYDPRSO",
-                "withdraw": true,
-                "deposit": true,
+                "withdraw": false,
+                "deposit": false,
                 "sep24": true
             }
         ]
