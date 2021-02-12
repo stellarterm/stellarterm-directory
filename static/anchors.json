@@ -222,20 +222,20 @@
             {
                 "code": "BCH",
                 "issuer": "GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4",
-                "withdraw": true,
-                "deposit": true
+                "withdraw": false,
+                "deposit": false
             },
             {
                 "code": "DASH",
                 "issuer": "GDFGEXEBIMLP5UFC36TFENBHRJSW7AQZUPXNTTM2WO532KBXCVPUKFGB",
-                "withdraw": true,
-                "deposit": true
+                "withdraw": false,
+                "deposit": false
             },
             {
                 "code": "MTL",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
-                "withdraw": true,
-                "deposit": true
+                "withdraw": false,
+                "deposit": false
             },
             {
                 "code": "OMG",
@@ -252,6 +252,12 @@
             {
                 "code": "SALT",
                 "issuer": "GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+                "withdraw": false,
+                "deposit": false
+            },
+            {
+                "code": "USDT",
+                "issuer": "GCQTGZQQ5G4PTM2GL7CDIFKUBIPEC52BROAQIAPW53XBRJVN6ZJVTG6V",
                 "withdraw": true,
                 "deposit": true
             }
@@ -561,9 +567,9 @@
         ]
     },
     {
-        "domain": "anchor.com.ar",
-        "website": "https://anchor.com.ar/",
-        "support": "info@anchor.com.ar",
+        "domain": "api.anclap.com",
+        "website": "https://api.anclap.com/",
+        "support": "info@anclap.com",
         "logo": "ars",
         "color": "#74ACDF",
         "displayName": "Peso Argentino",
@@ -629,6 +635,23 @@
         ]
     },
     {
+        "domain": "sep.stablex.cloud",
+        "website": "https://sep.stablex.cloud",
+        "support": "",
+        "logo": "brl",
+        "color": "#8d9075",
+        "displayName": "Brazilian Real",
+        "assets": [
+            {
+                "code": "BRLT",
+                "issuer": "GCHQ3F2BF5P74DMDNOOGHT5DUCKC773AW5DTOFINC26W4KGYFPYDPRSO",
+                "withdraw": false,
+                "deposit": false,
+                "sep24": true
+            }
+        ]
+    },
+    {
         "domain": "arst.settle.network",
         "website": "https://arst.settle.network/",
         "support": "support@settle.network",
@@ -639,6 +662,30 @@
             {
                 "code": "ARST",
                 "issuer": "GCSAZVWXZKWS4XS223M5F54H2B6XPIIXZZGP7KEAIU6YSL5HDRGCI3DG",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
+    },
+    {
+        "domain": "connect.clickpesa.com",
+        "website": "https://connect.clickpesa.com/",
+        "support": "info@clickpesa.com",
+        "logo": "clickpesa",
+        "color": "#FCDC00",
+        "displayName": "Shilling",
+        "assets": [
+            {
+                "code": "TZS",
+                "issuer": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "KES",
+                "issuer": "GA2MSSZKJOU6RNL3EJKH3S5TB5CDYTFQFWRYFGUJVIN5I6AOIRTLUHTO",
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true
