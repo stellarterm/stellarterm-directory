@@ -121,6 +121,9 @@ DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
     if (details.sep24) {
         this.assets[slug].sep24 = details.sep24;
     }
+    if (details.customTransferDomain) {
+        this.assets[slug].customTransferDomain = details.customTransferDomain;
+    }
     if (details.disabled) {
         this.assets[slug].disabled = true;
     }
