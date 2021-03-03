@@ -1,4 +1,17 @@
 [
+        {
+        "domain": "afreum.com",
+        "website": "https://afreum.com",
+        "logo": "afreum.com",
+        "color": "#000000",
+        "displayName": "AFREUM",
+        "assets": [
+            {
+                "code": "AFR",
+                "issuer": "GBX6YI45VU7WNAAKA3RBFDR3I3UKNFHTJPQ5F6KOOKSGYIAM4TRQN54W"
+            }
+        ]
+    },
     {
         "domain": "ternio.io",
         "website": "https://ternio.io",
