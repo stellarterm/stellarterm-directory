@@ -719,7 +719,8 @@
                 "withdraw": true,
                 "deposit": true,
                 "sep24": true,
-                "customTransferDomain": "usdcswap.ultrastellar.com"
+                "customTransferDomain": "usdcswap.ultrastellar.com",
+                "customTransferSupport": "support@ultrastellar.com"
             }
         ]
     }
