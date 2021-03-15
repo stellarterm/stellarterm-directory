@@ -693,19 +693,6 @@
         ]
     },
     {
-        "domain": "centus.one",
-        "website": "https://centus.one/",
-        "logo": "centus.one",
-        "color": "#a38b1e",
-        "displayName": "Stable Cent",
-        "assets": [
-            {
-                "code": "CENTUS",
-                "issuer": "GAKMVPHBET4T7DPN32ODVSI4AA3YEZX2GHGNNSBGFNRQ6QEVKFO4MNDZ"
-            }
-        ]
-    },
-    {
         "domain": "www.centre.io",
         "website": "https://www.centre.io",
         "logo": "www.centre.io",
