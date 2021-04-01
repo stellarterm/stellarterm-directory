@@ -785,5 +785,29 @@
                 "sep24": true
             }
         ]
+    },
+    {
+        "domain": "polaris-beta.stably.io",
+        "website": "https://polaris-beta.stably.io/",
+        "support": "lorem@ipsum.co",
+        "logo": "unknown",
+        "color": "#36aec6",
+        "displayName": "USDS",
+        "assets": [
+            {
+                "code": "USDC",
+                "issuer": "GBW5KCQ7HKDVQ5GVZZYEEWGKL27MI4HJDPHPPVO2G3XMJITD5RVOQTVC",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            },
+            {
+                "code": "USDS",
+                "issuer": "GBMWZQZ5PBBRWRZMFQDWJGHPINWFIQ3MCP5OQXMV43LUVRDQAD3VC7C2",
+                "withdraw": true,
+                "deposit": true,
+                "sep24": true
+            }
+        ]
     }
 ]
