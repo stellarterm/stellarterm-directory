@@ -710,5 +710,18 @@
                 "customTransferSupport": "support@ultrastellar.com"
             }
         ]
+    },
+    {
+        "domain": "velo.org",
+        "website": "https://velo.org",
+        "logo": "velo.org",
+        "color": "#3d0a1a",
+        "displayName": "VELO",
+        "assets": [
+            {
+                "code": "VELO",
+                "issuer": "GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M"
+            }
+        ]
     }
 ]
