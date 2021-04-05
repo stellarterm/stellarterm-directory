@@ -762,5 +762,19 @@
                 "isCounterSelling": true
             }
         ]
+    },
+    {
+        "domain": "stably.io",
+        "website": "https://stably.io",
+        "logo": "stably.io",
+        "color": "#311e41",
+        "displayName": "Stably Corporation",
+        "assets": [
+            {
+                "code": "USDS",
+                "issuer": "GBK4AYTOYIAYT4UJECSQGMACUWLKYOOM4VCAUUZ3Y3FG5XD2LYK3FGK2",
+                "isCounterSelling": true
+            }
+        ]
     }
 ]
