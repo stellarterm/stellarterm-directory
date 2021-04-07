@@ -112,6 +112,9 @@ DirectoryBuilder.prototype.addAsset = function (anchorDomain, details) {
         issuer: details.issuer,
         domain: anchorDomain,
     };
+    if (details.anchor_asset) {
+        this.assets[slug].anchor_asset = details.anchor_asset;
+    }
     if (details.deposit) {
         this.assets[slug].deposit = details.deposit;
     }
