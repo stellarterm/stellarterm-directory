@@ -1,6 +1,6 @@
 {
   "name": "stellarterm-directory",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The directory as used in StellarTerm",
   "main": "directory.js",
   "scripts": {
