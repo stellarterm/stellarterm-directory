@@ -1,4 +1,4 @@
-import req from './req';
+const req = require('./req');
 
 const MEMO_TYPES = new Set(['MEMO_TEXT', 'MEMO_ID', 'MEMO_HASH', 'MEMO_RETURN']);
 
@@ -202,4 +202,4 @@ class DirectoryClass {
     }
 }
 
-export default new DirectoryClass();
+module.exports = new DirectoryClass();
