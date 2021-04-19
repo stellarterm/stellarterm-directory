@@ -9,7 +9,8 @@ class DirectoryClass {
         this.assets = {};
         this.issuers = {};
         this.pairs = {};
-        this.initializationRequest = null;
+        this.initializeAnchorsRequest = null;
+        this.initializeDestinationsRequest = null;
         this.buildID = null;
 
         // Special anchors aren't really anchors at all!
@@ -32,15 +33,25 @@ class DirectoryClass {
         };
     }
 
-    initialize(url) {
-        if (!this.initializationRequest) {
-            this.initializationRequest = req.getJson(url).then(data => {
-                data.anchors.forEach(anchor => this.addAnchor(anchor));
-                data.destinations.forEach(destination => this.addDestination(destination));
-                this.buildID = data.buildId;
+    initializeAnchors(url) {
+        if (!this.initializeAnchorsRequest) {
+            this.initializeAnchorsRequest = req.getJson(url).then(data => {
+                const anchors = data.anchors || [];
+                anchors.forEach(anchor => this.addAnchor(anchor));
+                this.buildID = data.build_id;
             });
         }
-        return this.initializationRequest;
+        return this.initializeAnchorsRequest;
+    }
+
+    initializeDestinations(url) {
+        if (!this.initializeDestinationsRequest) {
+            this.initializeDestinationsRequest = req.getJson(url).then(data => {
+                const destinations = data.destinations || [];
+                destinations.forEach(destination => this.addDestination(destination));
+            });
+        }
+        return this.initializeDestinationsRequest;
     }
 
     addAnchor(anchor) {
@@ -51,7 +62,7 @@ class DirectoryClass {
         // add anchor
         this.anchors[anchor.domain] = {
             name: anchor.domain,
-            displayName: anchor.displayName,
+            displayName: anchor.display_name,
             support: anchor.support,
             website: anchor.website,
             logo: anchor.logo,
@@ -64,7 +75,11 @@ class DirectoryClass {
         // add assets
         anchor.assets.forEach(asset => {
             const slug = `${asset.code}-${asset.issuer}`;
-            this.assets[slug] = Object.assign({}, asset, { domain: anchor.domain });
+            this.assets[slug] = Object.assign({}, asset, {
+                domain: anchor.domain,
+                customTransferDomain: asset.custom_transfer_domain,
+                customTransferSupport: asset.custom_transfer_support
+            });
             this.anchors[anchor.domain].assets[asset.code] = slug;
             if (!this.issuers[asset.issuer]) {
                 this.issuers[asset.issuer] = {};
@@ -72,7 +87,7 @@ class DirectoryClass {
             this.issuers[asset.issuer][asset.code] = slug;
 
             // add pair for asset
-            const isCounterAsset = asset.code === 'BTC' || asset.isCounterSelling;
+            const isCounterAsset = asset.code === 'BTC' || asset.is_counter_selling;
             const assetData = {
                 domain: anchor.domain,
                 code: asset.code,
@@ -117,7 +132,7 @@ class DirectoryClass {
             console.error('Website URL of anchor must contain the anchor domain');
             isValid = false;
         }
-        if (!anchor.displayName) {
+        if (!anchor.display_name) {
             console.error(`Display name is required for anchor: ${anchor.domain}`);
             isValid = false;
         }
@@ -140,23 +155,22 @@ class DirectoryClass {
                 console.error(`Duplicate asset: ${slug}`);
                 isValid = false;
             }
-            if (Object.prototype.hasOwnProperty.call(asset, 'unlisted') && asset.unlisted !== true) {
-                console.error(`Asset property unlisted must be unset or true: ${slug}`);
-                isValid = false;
-            }
         });
         return isValid;
     }
 
     addDestination(destination) {
-        const { id, data } = destination;
-        if (!data.name) {
+        const { id, name, required_memo_type } = destination;
+        if (!name) {
             throw new Error('Name required for destinations');
         }
-        if (data.requiredMemoType && !MEMO_TYPES.has(data.requiredMemoType)) {
+        if (required_memo_type && !MEMO_TYPES.has(required_memo_type)) {
             throw new Error('Invalid memo type when adding destination');
         }
-        this.destinations[id] = Object.assign({}, data);
+        this.destinations[id] = {
+            name,
+            requiredMemoType: required_memo_type
+        };
     }
 
     getAnchor(domain) {
