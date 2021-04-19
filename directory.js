@@ -33,8 +33,8 @@ class DirectoryClass {
         };
     }
 
-    initializeAnchors(url) {
-        if (!this.initializeAnchorsRequest) {
+    initializeAnchors(url, force) {
+        if (!this.initializeAnchorsRequest || force) {
             this.initializeAnchorsRequest = req.getJson(url).then(data => {
                 const anchors = data.anchors || [];
                 anchors.forEach(anchor => this.addAnchor(anchor));
