@@ -781,5 +781,18 @@
                 "isCounterSelling": true
             }
         ]
+    },
+    {
+        "domain": "kthouse.co",
+        "website": "https://kthouse.co",
+        "logo": "kthouse",
+        "color": "#FCDC00",
+        "displayName": "KTHOUSE",
+        "assets": [
+            {
+                "code": "KTHOUSE",
+                "issuer": "GB5BK7HJK7SJGJXN4X6BV2QBEWGXVMEZJRGKWBFU6PK6BV4DW7WOQ27W"
+            }
+        ]
     }
 ]
