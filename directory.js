@@ -4,14 +4,10 @@ const MEMO_TYPES = new Set(['MEMO_TEXT', 'MEMO_ID', 'MEMO_HASH', 'MEMO_RETURN'])
 
 class DirectoryClass {
     constructor() {
-        this.anchors = {};
+        this.reset();
+
         this.destinations = {};
-        this.assets = {};
-        this.issuers = {};
-        this.pairs = {};
-        this.initializeAnchorsRequest = null;
         this.initializeDestinationsRequest = null;
-        this.buildID = null;
 
         // Special anchors aren't really anchors at all!
         this.nativeAnchor = {
@@ -33,7 +29,7 @@ class DirectoryClass {
         };
     }
 
-    initializeAnchors(url, force) {
+    initializeAnchors(url) {
         if (!this.initializeAnchorsRequest || force) {
             this.initializeAnchorsRequest = req.getJson(url).then(data => {
                 const anchors = data.anchors || [];
@@ -52,6 +48,16 @@ class DirectoryClass {
             });
         }
         return this.initializeDestinationsRequest;
+    }
+
+    reset() {
+        this.anchors = {};
+        this.assets = {};
+        this.issuers = {};
+        this.pairs = {};
+        this.initializeAnchorsRequest = null;
+        this.initializeDestinationsRequest = null;
+        this.buildID = null;
     }
 
     addAnchor(anchor) {
