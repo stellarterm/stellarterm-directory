@@ -30,7 +30,7 @@ class DirectoryClass {
     }
 
     initializeAnchors(url) {
-        if (!this.initializeAnchorsRequest || force) {
+        if (!this.initializeAnchorsRequest) {
             this.initializeAnchorsRequest = req.getJson(url).then(data => {
                 const anchors = data.anchors || [];
                 anchors.forEach(anchor => this.addAnchor(anchor));
