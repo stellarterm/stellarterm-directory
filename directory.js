@@ -29,15 +29,15 @@ class DirectoryClass {
         };
     }
 
-    initializeAnchors(url) {
-        if (!this.initializeAnchorsRequest) {
-            this.initializeAnchorsRequest = req.getJson(url).then(data => {
-                const anchors = data.anchors || [];
-                anchors.forEach(anchor => this.addAnchor(anchor));
+    initializeIssuerOrgs(url) {
+        if (!this.initializeIssuerOrgsRequest) {
+            this.initializeIssuerOrgsRequest = req.getJson(url).then(data => {
+                const issuerOrgs = data.issuer_orgs || [];
+                issuerOrgs.forEach(issuerOrg => this.addIssuerOrganization(issuerOrg));
                 this.buildID = data.build_id;
             });
         }
-        return this.initializeAnchorsRequest;
+        return this.initializeIssuerOrgsRequest;
     }
 
     initializeDestinations(url) {
@@ -55,12 +55,12 @@ class DirectoryClass {
         this.assets = {};
         this.issuers = {};
         this.pairs = {};
-        this.initializeAnchorsRequest = null;
+        this.initializeIssuerOrgsRequest = null;
         this.initializeDestinationsRequest = null;
         this.buildID = null;
     }
 
-    addAnchor(anchor) {
+    addIssuerOrganization(anchor) {
         if (!this.validateAnchor(anchor)) {
             console.warn(`Anchor ${anchor.domain} is invalid, it will be skipped`);
             return;
