@@ -781,5 +781,18 @@
                 "isCounterSelling": true
             }
         ]
+    },
+    {
+        "domain": "doge-token.com",
+        "website": "https://doge-token.com",
+        "logo": "doge-token.com",
+        "color": "#7f525e",
+        "displayName": "DOGE TOKEN",
+        "assets": [
+            {
+                "code": "DOGET",
+                "issuer": "GDOEVDDBU6OBWKL7VHDAOKD77UP4DKHQYKOKJJT5PR3WRDBTX35HUEUX"
+            }
+        ]
     }
 ]
