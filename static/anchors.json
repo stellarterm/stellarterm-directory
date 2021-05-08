@@ -794,5 +794,18 @@
                 "issuer": "GDOEVDDBU6OBWKL7VHDAOKD77UP4DKHQYKOKJJT5PR3WRDBTX35HUEUX"
             }
         ]
+    },
+    {
+        "domain": "aqua.network",
+        "website": "https://aqua.network",
+        "logo": "aqua",
+        "color": "#872AB0",
+        "displayName": "AQUA",
+        "assets": [
+            {
+                "code": "AQUA",
+                "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+            }
+        ]
     }
 ]
