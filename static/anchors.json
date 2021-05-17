@@ -807,5 +807,18 @@
                 "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
             }
         ]
-    }
+    },
+    {
+        "domain": "zen-token.com",
+        "website": "https://zen-token.com",
+        "logo": "zen-token",
+        "color": "#02a5e7",
+        "displayName": "ZenToken",
+        "assets": [
+            {
+                "code": "ZEN",
+                "issuer": "GDBOQCFTXWM7F54HYCKI6LETXA3OYQML52USNGF26YGMVEY2R5UJFNJR"
+            }
+        ]
+    }     
 ]
