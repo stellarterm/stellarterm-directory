@@ -794,5 +794,18 @@
                 "issuer": "GDOEVDDBU6OBWKL7VHDAOKD77UP4DKHQYKOKJJT5PR3WRDBTX35HUEUX"
             }
         ]
+    },
+    {
+        "domain": "itswednesdaymydu.de",
+        "website": "https://itswednesdaymydu.de",
+        "logo": "itswednesdaymydu.de",
+        "color": "#bf0003",
+        "displayName": "WednesdayFrog",
+        "assets": [
+            {
+                "code": "WDFR",
+                "issuer": "GCTYXPOEEBDAFXU2FDRJUVTUGVQZHMWCAPEIGLWRQ6AXUAMVJJPDAPAZ"
+            }
+        ]
     }
 ]
