@@ -31,6 +31,3 @@ git add .
 git commit -a -m "Commit id: $COMMIT_NAME"
 
 
-
-
-
