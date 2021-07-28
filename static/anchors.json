@@ -805,6 +805,17 @@
             {
                 "code": "AQUA",
                 "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+      },
+      {
+        "domain": "nunaproject.art",
+        "website": "https://nunaproject.art/",
+        "logo": "nuna",
+        "color": "#872AB0",
+        "displayName": "NUNA",
+        "assets": [
+            {
+                "code": "NUNA",
+                "issuer": "GCKCDIW33T2WBRSYRB7UKSLJMVHSSCW3DYOJ53NCFTQIWZY3765S42MG"
             }
         ]
     }
