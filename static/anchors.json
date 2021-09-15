@@ -1,0 +1,15 @@
+[
+    {
+        "domain": "bonfirestellar.org",
+        "website": "https://bonfirestellar.org",
+        "logo": "bonfirestellar",
+        "color": "#F8F19F",
+        "displayName": "Bonfirestellar",
+        "assets": [
+            {
+                "code": "LOGS",
+                "issuer": "GDI74JMESJILV7YHADQ4GIM4DRBICUANQVZK653C4VOD6HAUEV6RACP3"
+            }
+        ]
+    }
+]
