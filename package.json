@@ -12,7 +12,7 @@
     "stellarterm-directory"
   ],
   "engines": {
-    "node": ">=10.20.1 <16.0.0"
+    "node": ">=10.20.1 <16.5.0"
   },
   "author": "Ultra Stellar, LLC",
   "license": "Apache-2.0",
