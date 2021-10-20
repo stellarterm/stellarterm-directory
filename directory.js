@@ -53,6 +53,7 @@ class DirectoryClass {
     reset() {
         this.anchors = {};
         this.assets = {};
+        this.disabledAssets = [];
         this.issuers = {};
         this.pairs = {};
         this.initializeIssuerOrgsRequest = null;
@@ -80,6 +81,10 @@ class DirectoryClass {
 
         // add assets
         anchor.assets.forEach(asset => {
+            if (asset.disabled) {
+                this.disabledAssets.push({ code: asset.code, issuer: asset.issuer });
+                return;
+            }
             const slug = `${asset.code}-${asset.issuer}`;
             this.assets[slug] = Object.assign({}, asset, {
                 domain: anchor.domain,
