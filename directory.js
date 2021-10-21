@@ -53,7 +53,7 @@ class DirectoryClass {
     reset() {
         this.anchors = {};
         this.assets = {};
-        this.disabledAssets = [];
+        this.disabledAssets = new Set();
         this.issuers = {};
         this.pairs = {};
         this.initializeIssuerOrgsRequest = null;
@@ -82,7 +82,7 @@ class DirectoryClass {
         // add assets
         anchor.assets.forEach(asset => {
             if (asset.disabled) {
-                this.disabledAssets.push({ code: asset.code, issuer: asset.issuer });
+                this.disabledAssets.add(`${asset.code.toUpperCase()}-${asset.issuer}`);
                 return;
             }
             const slug = `${asset.code}-${asset.issuer}`;
@@ -224,6 +224,10 @@ class DirectoryClass {
 
     getDestination(accountId) {
         return this.destinations[accountId];
+    }
+
+    isDisabledAsset(code, issuer) {
+        return this.disabledAssets.has(`${code.toUpperCase()}-${issuer}`);
     }
 }
 
