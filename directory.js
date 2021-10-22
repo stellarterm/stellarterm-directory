@@ -17,8 +17,8 @@ class DirectoryClass {
             color: '#F8F19F',
         };
         this.nativeAsset = {
-            code: 'LOGS',
-            issuer: 'GDI74JMESJILV7YHADQ4GIM4DRBICUANQVZK653C4VOD6HAUEV6RACP3',
+            code: 'BFIRE',
+            issuer: 'GB7U643OOUENEYK5NKFPSLX432P6PMNQITDWRMU2RVG4PXBRTHAVJOJW',
             domain: 'bonfirestellar.org',
         };
 
