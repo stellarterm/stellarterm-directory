@@ -31,7 +31,7 @@ class DirectoryClass {
             assets: [{
                 "code": "MERA",
                 "issuer": "GCFM6YC4LOS3QJTB4RSBYE6SNIT3ZABPW6DFOMYOUOOICL4LCXXP7H2A",
-                "dimain": "mera.one"
+                "domain": "mera.one"
             }]
         };
     }
