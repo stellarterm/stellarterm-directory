@@ -29,9 +29,9 @@ class DirectoryClass {
         };
     }
 
-    initializeIssuerOrgs(url) {
+    initializeIssuerOrgs(url, options) {
         if (!this.initializeIssuerOrgsRequest) {
-            this.initializeIssuerOrgsRequest = req.getJson(url).then(data => {
+            this.initializeIssuerOrgsRequest = req.getJson(url, options).then(data => {
                 const issuerOrgs = data.issuer_orgs || [];
                 issuerOrgs.forEach(issuerOrg => this.addIssuerOrganization(issuerOrg));
                 this.buildID = data.build_id;
@@ -40,9 +40,9 @@ class DirectoryClass {
         return this.initializeIssuerOrgsRequest;
     }
 
-    initializeDestinations(url) {
+    initializeDestinations(url, options) {
         if (!this.initializeDestinationsRequest) {
-            this.initializeDestinationsRequest = req.getJson(url).then(data => {
+            this.initializeDestinationsRequest = req.getJson(url, options).then(data => {
                 const destinations = data.destinations || [];
                 destinations.forEach(destination => this.addDestination(destination));
             });
