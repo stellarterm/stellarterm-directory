@@ -17,8 +17,8 @@ function get(url, options) {
     });
 }
 
-function getJson(url) {
-    return get(url)
+function getJson(url, options) {
+    return get(url, options)
         .then(body => {
             return JSON.parse(body);
         });
