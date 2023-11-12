@@ -1,6 +1,6 @@
 {
   "name": "stellarterm-directory",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The directory as used in StellarTerm",
   "main": "directory.js",
   "scripts": {
@@ -11,6 +11,9 @@
     "stellarterm",
     "stellarterm-directory"
   ],
+  "engines": {
+    "node": ">=14"
+  },
   "author": "Ultra Stellar, LLC",
   "license": "Apache-2.0",
   "bugs": {
